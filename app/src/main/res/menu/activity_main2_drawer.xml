@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_medList"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Medication List" />
+        <item
+            android:id="@+id/nav_remainDosages"
+            android:icon="@drawable/ic_local_pharmacy_black_24dp"
+            android:title="Track Remaining Dosages" />
+        <item
+            android:id="@+id/nav_takenHistory"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Medication History" />
+        <item
+            android:id="@+id/nav_notifSettings"
+            android:icon="@drawable/ic_sms_failed_black_24dp"
+            android:title="Notification Settings" />
+        <item
+            android:id="@+id/nav_genSettings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="General Settings" />
+    </group>
+</menu>
